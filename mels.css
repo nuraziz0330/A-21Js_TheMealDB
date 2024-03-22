@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d2013;
+    cursor: url("./why-mouse-cursor-is-skewed-windows-macos-explanation-iphonesru-main.jpg") , auto;
+  }
+  
+  .header {
+    padding: 0;
+    width: 100%;
+    background-color: #23180d;
+  }
+  
+  .wrapper {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+  }
+  
+  .nav-right {
+    width: 320px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .home {
+    background-color: #c52d2f;
+    color: #fff;
+    width: 80px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  
+  .api {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .api:hover {
+    background-color: #c52d2f;
+    transition: 0.3s ease-in;
+  }
+  
+  .search {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 120px;
+    color: gray;
+    height: 28px;
+    font-size: 18px;
+  }
+
+  .search {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 120px;
+    color: gray;
+    height: 28px;
+    font-size: 18px;
+  }
+  
+  .meals {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 40px;
+  } 
+  .prodact{
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  
+  }
+
+  .prodact img{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .prodact p{
+    color: #d57d1f;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+  }
+  .prodact:hover p{
+    color: #ffcd69;
+  }
+
+  footer{
+    background-color: #23180d;
+    margin-top: 50px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+  }
+  .span1, .span2, .link{
+    font-size: 20px;
+    color: #fff;
+  }
+  .col-sm-6 .link:hover{
+    color: #c52d2f;
+  }
+  .col-sm-6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .col-sm-4{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .col-sm-2{
+    margin-top: 20px;
+  }

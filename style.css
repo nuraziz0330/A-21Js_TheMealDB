@@ -1,0 +1,236 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2d2013;
+  cursor: url("./why-mouse-cursor-is-skewed-windows-macos-explanation-iphonesru-main.jpg") , auto;
+}
+.wrapper1{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0;
+  width: 100%;
+  background-color: #23180d;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+}
+
+.nav-right {
+  width: 320px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.home {
+  background-color: #c52d2f;
+  color: #fff;
+  width: 80px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.api {
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.api:hover {
+  background-color: #c52d2f;
+  transition: 0.3s ease-in;
+}
+
+.search {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 120px;
+  color: gray;
+  height: 28px;
+  font-size: 18px;
+}
+
+.meals {
+  display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 40px;
+} 
+.prodact{
+  width: 270px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+
+}
+.prodact>img{
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+.prodact p{
+  color: #d57d1f;
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
+.prodact:hover p{
+  color: #ffcd69;
+}
+.letter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.letter a{
+  color: #d57d1f;
+  cursor: pointer;
+  margin: 0 1px;
+}
+.letter a:hover{
+  color: #ffcd69;
+}
+.letter a span{
+  color: #fff;
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.category{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+.feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center{
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;;
+}
+.center h1{
+  font-weight: 600;
+  font-size: 36px;
+}
+.center a{
+  color: #d57d1f;
+  text-decoration: none;
+}
+.center button{
+  width: 150px;
+  height: 33px;
+  border-radius: 5px;
+  color: blue;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: yellow;
+}
+.center button>span{
+  color: #428bca;
+}
+.feature-hr, .navbar-hr, hr{
+  width: 1200px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+.group{
+  position: relative;
+}
+.group input{
+  width: 300px;
+  height: 38px;
+  font-size: 18px;
+  position: absolute;
+  left: 550px;
+  top: 15px;
+}
+.group button{
+  position: absolute;
+  left: 860px;
+  top: 15px;
+}
+.info{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;;
+  position: absolute;
+  top: 70px;
+  left: 505px;
+}
+.navbar-hr{
+  margin-top: 120px;
+}
+hr{
+  margin-top: 50px;
+}
+
+
+
+footer{
+  background-color: #23180d;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.span1, .span2, .link{
+  font-size: 20px;
+  color: #fff;
+}
+.col-sm-6 .link:hover{
+  color: #c52d2f;
+}
+.col-sm-6{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.col-sm-4{
+  text-align: center;
+  margin-top: 20px;
+}
+.col-sm-2{
+  margin-top: 20px;
+}
